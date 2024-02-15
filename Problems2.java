@@ -1,4 +1,4 @@
-public class MyClass {
+public class Problems2 {
     public static void main(String args[]) {
         // 1:
       System.out.println("\t\tDog Show Winners\nPlace:\t1\t2\t3\t4\t5\t6\nDog #:\t76\t32\t18\t47\t11\t29\n"); // prints dog show winners

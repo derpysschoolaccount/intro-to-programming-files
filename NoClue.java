@@ -1,4 +1,4 @@
-public class MyClass {
+public class NoClue {
     public static void main(String args[]) {
         // 1:
       System.out.println("NAME\tSCORE\nPicard\t1874\nRiker\t1789"); // names or something idk

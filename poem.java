@@ -1,4 +1,4 @@
-public class MyClass {
+public class Poem {
     public static void main(String args[]) {
       System.out.println("I have a spelling checker.");
       System.out.println("It came with my pea sea.");
