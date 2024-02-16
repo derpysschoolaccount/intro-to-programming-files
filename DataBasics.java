@@ -36,11 +36,12 @@ public class DataBasics {
         bond = 007;
         System.out.println("10x: " + bond * 10 + " cubed: " + bond * bond * bond + " bond: " + bond);
         
-        System.out.println("What\'s your name: ");
-        name = scan.nextLine();
+
+        System.out.print("What\'s your name: ");
+        name = scan.next();
         
-        System.out.println("What\'s your favorite color: ");
-        favColor = scan.nextLine();
+        System.out.print("What\'s your favorite color: ");
+        favColor = scan.next();
         
         System.out.println(name + ", did you ever think of dying your hair " + favColor);
     }
