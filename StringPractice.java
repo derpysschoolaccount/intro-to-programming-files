@@ -1,4 +1,3 @@
-import java.text.*;
 import java.util.*;
 
 /*
@@ -8,6 +7,7 @@ import java.util.*;
  */
 public class StringPractice
 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 	    // email or something idk
 	    Scanner scan = new Scanner(System.in);
