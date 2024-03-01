@@ -24,22 +24,20 @@ public class StringPractice
 		System.out.println(person);
 		
 		// address thing
-		String address, zipCode;
-		System.out.print("What\'s your name: ");
-		name = scan.nextLine();
+		String address, cityname;
 		
-		System.out.print("What\'s your street address: ");
+		System.out.print("What\'s your city, state and zip code: ");
 	    address = scan.nextLine();
-	    
-	    System.out.print("What\'s your zip code?: ");
-	    zipCode = scan.nextLine();
-	    
-	    System.out.print("Length of city name: " + (address.length() - address.indexOf(",")));
+
+	    cityname = address.substring(0,address.indexOf(","));
+	    System.out.println("City name: " + cityname + "\nlength: " + cityname.length());
 	    
 		// father's name?
-	    String stringVariable;
+	    String stringVariable, firstname, lastname;
 	    stringVariable = "Pendragon, Uther";
-	    System.out.println(stringVariable.substring(11) + " " + stringVariable.substring(0,9));
+		lastname = stringVariable.substring(0,9);
+		firstname = stringVariable.substring(11);
+	    System.out.println("Name: " + firstname + " " + lastname);
 
 		// caption?
 		String caption;
